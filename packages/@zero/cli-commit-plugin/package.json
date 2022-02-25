@@ -1,6 +1,6 @@
 {
   "name": "@zero-cli/cli-commit-plugin",
-  "version": "2.0.9",
+  "version": "2.1.0",
   "description": "cli-commit-plugin",
   "keywords": [
     "fetch",
@@ -33,7 +33,7 @@
     "url": "https://github.com/13426078416/zero-cli/issues"
   },
   "devDependencies": {
-    "@zero-cli/cli-types-shared": "^2.0.9"
+    "@zero-cli/cli-types-shared": "^2.1.0"
   },
   "engines": {
     "node": ">=10"
