@@ -5,4 +5,4 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 2.0.4 (2022-02-25)
 
-**Note:** Version bump only for package @zero-cli/cli-commit-plugin
+**Note:** Version bump only for package @zero-cli/cli-fetch-plugin

@@ -1,6 +1,6 @@
 {
   "name": "@zero-cli/cli-lib-service",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "A development runtime environment dependency for lib",
   "keywords": [
     "webpack",
@@ -57,7 +57,7 @@
     "@babel/preset-env": "7.13.15",
     "@babel/preset-react": "7.13.13",
     "@babel/preset-typescript": "7.13.0",
-    "@zero-cli/cli-utils-shared": "2.0.3",
+    "@zero-cli/cli-utils-shared": "^2.0.4",
     "autoprefixer": "10.2.3",
     "babel-jest": "25.1.0",
     "babel-loader": "8.2.2",
@@ -110,7 +110,6 @@
     "webpackbar": "4.0.0"
   },
   "devDependencies": {
-    "@zero-cli/cli-types-shared": "2.0.3",
     "@types/babel__core": "7.1.14",
     "@types/case-sensitive-paths-webpack-plugin": "2.1.4",
     "@types/css-minimizer-webpack-plugin": "1.1.1",
@@ -129,7 +128,8 @@
     "@types/webpack": "4.41.27",
     "@types/webpack-bundle-analyzer": "3.9.0",
     "@types/webpack-merge": "4.1.5",
-    "@types/webpackbar": "4.0.0"
+    "@types/webpackbar": "4.0.0",
+    "@zero-cli/cli-types-shared": "^2.0.4"
   },
   "engines": {
     "node": ">=10"

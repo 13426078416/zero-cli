@@ -1,6 +1,6 @@
 {
   "name": "@zero-cli/cli-service-plugin",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "A development runtime environment dependency",
   "keywords": [
     "webpack",
@@ -45,11 +45,11 @@
     "@babel/generator": "^7.13.0",
     "@babel/traverse": "^7.13.0",
     "@babel/types": "^7.13.0",
-    "@zero-cli/cli-utils-shared": "2.0.3",
     "@pmmmwh/react-refresh-webpack-plugin": "0.4.3",
     "@types/less": "3.0.1",
     "@types/webpack": "4.41.27",
     "@types/webpack-dev-server": "3.11.3",
+    "@zero-cli/cli-utils-shared": "^2.0.4",
     "address": "1.1.2",
     "ansi-html": "0.0.7",
     "body-parser": "1.19.0",
@@ -98,7 +98,6 @@
     "webpackbar": "4.0.0"
   },
   "devDependencies": {
-    "@zero-cli/cli-types-shared": "2.0.3",
     "@rematch/core": "2.0.1",
     "@types/babel__core": "7.1.14",
     "@types/babel__generator": "7.6.2",
@@ -131,6 +130,7 @@
     "@types/webpack-merge": "4.1.5",
     "@types/webpack-node-externals": "2.5.0",
     "@types/webpackbar": "4.0.0",
+    "@zero-cli/cli-types-shared": "^2.0.4",
     "react-router": "5.2.0",
     "react-router-dom": "5.2.0"
   },
