@@ -39,5 +39,5 @@
     "@zero-cli/cli-utils-shared": "^2.0.7",
     "eslint-webpack-plugin": "2.5.4"
   },
-  "gitHead": "dc2757c2628197ed1be10e33f5652a1f0accf14a"
+  "gitHead": "042d54edc16b3ac6cd944d79933c1e82edb4154d"
 }

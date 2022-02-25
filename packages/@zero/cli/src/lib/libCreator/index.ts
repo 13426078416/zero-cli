@@ -223,7 +223,7 @@ class LibCreator extends BaseCreator {
       plugins: {
         "@zero-cli/cli-lib-service": { projectName: "" },
         "@zero-cli/cli-eslint-plugin": {},
-        "@zero-cli/cli-unit-test-plugin": {},
+        "@zero-cli/zero-cli-unit-test-plugin": {},
       },
     };
 

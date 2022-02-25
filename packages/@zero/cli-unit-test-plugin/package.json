@@ -1,5 +1,5 @@
 {
-  "name": "@zero-cli/cli-unit-test-plugin",
+  "name": "@zero-cli/zero-cli-unit-test-plugin",
   "version": "2.0.7",
   "description": "cli-plugin-unit-test",
   "keywords": [
@@ -39,5 +39,5 @@
   "engines": {
     "node": ">=10"
   },
-  "gitHead": "dc2757c2628197ed1be10e33f5652a1f0accf14a"
+  "gitHead": "042d54edc16b3ac6cd944d79933c1e82edb4154d"
 }

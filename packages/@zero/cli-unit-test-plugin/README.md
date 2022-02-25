@@ -1,1 +1,1 @@
-# `@zero-cli/cli-unit-test-plugin`
+# `@zero-cli/zero-cli-unit-test-plugin`

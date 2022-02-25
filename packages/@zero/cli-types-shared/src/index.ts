@@ -2,7 +2,7 @@ export type RawPlugin = {
   "@zero-cli/cli-babel-plugin"?: Record<string, unknown>;
   "@zero-cli/cli-eslint-plugin"?: Record<string, unknown>;
   "@zero-cli/cli-stylelint-plugin"?: Record<string, unknown>;
-  "@zero-cli/cli-unit-test-plugin"?: Record<string, unknown>;
+  "@zero-cli/zero-cli-unit-test-plugin"?: Record<string, unknown>;
   "@zero-cli/cli-fetch-plugin"?: Record<string, unknown>;
   "@zero-cli/cli-commit-plugin"?: Record<string, unknown>;
   "@zero-cli/cli-service-plugin"?: { projectName: string } & Record<string, unknown>;

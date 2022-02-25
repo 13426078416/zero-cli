@@ -31,7 +31,7 @@ export const defaultRootOptions: Required<RootOptions> = {
     "@zero-cli/cli-babel-plugin": {},
     "@zero-cli/cli-eslint-plugin": {},
     "@zero-cli/cli-stylelint-plugin": {},
-    "@zero-cli/cli-unit-test-plugin": {},
+    "@zero-cli/zero-cli-unit-test-plugin": {},
     "@zero-cli/cli-commit-plugin": {},
   },
 };

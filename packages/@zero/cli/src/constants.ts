@@ -15,7 +15,7 @@ export const defaultPreset: Required<Preset> = {
     "@zero-cli/cli-babel-plugin": {},
     "@zero-cli/cli-eslint-plugin": {},
     "@zero-cli/cli-stylelint-plugin": {},
-    "@zero-cli/cli-unit-test-plugin": {},
+    "@zero-cli/zero-cli-unit-test-plugin": {},
     "@zero-cli/cli-fetch-plugin": {},
     "@zero-cli/cli-commit-plugin": {},
   },
@@ -35,7 +35,7 @@ export const defaultPresetForLib: Required<Preset> = {
     },
     "@zero-cli/cli-eslint-plugin": {},
     "@zero-cli/cli-stylelint-plugin": {},
-    "@zero-cli/cli-unit-test-plugin": {},
+    "@zero-cli/zero-cli-unit-test-plugin": {},
     "@zero-cli/cli-commit-plugin": {},
   },
 };

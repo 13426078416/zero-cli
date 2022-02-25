@@ -11,7 +11,7 @@ export default function(cli: PromptModuleAPI): void {
   cli.onPromptComplete((answers, preset) => {
     preset.unitTest = answers.unitTest;
     if (answers.unitTest) {
-      preset.plugins["@zero-cli/cli-unit-test-plugin"] = {};
+      preset.plugins["@zero-cli/zero-cli-unit-test-plugin"] = {};
     }
   });
 }
