@@ -1,6 +1,6 @@
 {
   "name": "@zero-cli/cli-babel-plugin",
-  "version": "2.0.4",
+  "version": "2.0.7",
   "description": "cli-babel-plugin",
   "author": "xiaocai <894516496@qq.com>",
   "homepage": "https://github.com/13426078416/zero-cli/blob/master/packages/%40zero/cli-babel-plugin/README.md",
@@ -30,7 +30,7 @@
     "url": "https://github.com/13426078416/zero-cli/issues"
   },
   "devDependencies": {
-    "@zero-cli/cli-types-shared": "^2.0.4"
+    "@zero-cli/cli-types-shared": "^2.0.7"
   },
   "engines": {
     "node": ">=10"

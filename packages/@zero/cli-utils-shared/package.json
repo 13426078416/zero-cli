@@ -1,6 +1,6 @@
 {
   "name": "@zero-cli/cli-utils-shared",
-  "version": "2.0.4",
+  "version": "2.0.7",
   "description": "cli shared utils",
   "keywords": [
     "utils"
