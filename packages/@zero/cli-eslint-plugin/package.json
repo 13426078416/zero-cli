@@ -38,5 +38,6 @@
   "dependencies": {
     "@zero-cli/cli-utils-shared": "^2.0.4",
     "eslint-webpack-plugin": "2.5.4"
-  }
+  },
+  "gitHead": "dc2757c2628197ed1be10e33f5652a1f0accf14a"
 }
