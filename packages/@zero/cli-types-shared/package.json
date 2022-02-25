@@ -1,6 +1,6 @@
 {
   "name": "@zero-cli/cli-types-shared",
-  "version": "2.0.7",
+  "version": "2.0.9",
   "description": "some shared definition types for zero-cli",
   "keywords": [
     "types",

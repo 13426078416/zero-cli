@@ -1,6 +1,6 @@
 {
   "name": "@zero-cli/zero-cli-unit-test-plugin",
-  "version": "2.0.7",
+  "version": "2.0.9",
   "description": "cli-plugin-unit-test",
   "keywords": [
     "unit-test",
@@ -34,7 +34,7 @@
     "url": "https://github.com/13426078416/zero-cli/issues"
   },
   "devDependencies": {
-    "@zero-cli/cli-types-shared": "^2.0.7"
+    "@zero-cli/cli-types-shared": "^2.0.9"
   },
   "engines": {
     "node": ">=10"

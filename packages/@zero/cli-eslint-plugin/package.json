@@ -1,6 +1,6 @@
 {
   "name": "@zero-cli/cli-eslint-plugin",
-  "version": "2.0.7",
+  "version": "2.0.9",
   "description": "cli-eslint-plugin",
   "author": "xiaocai <894516496@qq.com>",
   "homepage": "https://github.com/13426078416/zero-cli/blob/master/packages/%40zero/cli-eslint-plugin/README.md",
@@ -30,13 +30,13 @@
     "url": "https://github.com/13426078416/zero-cli/issues"
   },
   "devDependencies": {
-    "@zero-cli/cli-types-shared": "^2.0.7"
+    "@zero-cli/cli-types-shared": "^2.0.9"
   },
   "engines": {
     "node": ">=10"
   },
   "dependencies": {
-    "@zero-cli/cli-utils-shared": "^2.0.7",
+    "@zero-cli/cli-utils-shared": "^2.0.9",
     "eslint-webpack-plugin": "2.5.4"
   },
   "gitHead": "042d54edc16b3ac6cd944d79933c1e82edb4154d"
