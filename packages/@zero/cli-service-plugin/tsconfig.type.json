@@ -1,0 +1,22 @@
+{
+  "extends": "./../../../tsconfig.json",
+  "compilerOptions": {
+    "allowJs": false,
+    "baseUrl": "./",
+    "emitDeclarationOnly": true,
+    "declaration": true,
+    "declarationDir": "./../cli-types-shared/dist/cli-service",
+    "removeComments": false
+  },
+  "include": [
+    "./src",
+  ],
+  "exclude": [
+    "./src/template",
+    "./src/utils",
+  ],
+  "files": [
+    "./types.d.ts",
+    "src/definitions.ts"
+  ]
+}

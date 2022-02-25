@@ -1,0 +1,32 @@
+# project release files
+/build/**
+/dist/**
+
+# test result files
+/coverage/**
+**/*.snap
+/tests/**
+
+# document files
+/docs/**
+/jsdoc/**
+
+# others
+/template/**
+/public/**
+mock/**
+src/typings/*.d.ts
+
+/node_modules/**
+
+# config files
+zero.config.ts
+jest.config.js
+babel.config.js
+commitlint.config.js
+doczrc.js
+postcss.config.js
+
+# auto generated api files
+src/service/api
+src/service/interface

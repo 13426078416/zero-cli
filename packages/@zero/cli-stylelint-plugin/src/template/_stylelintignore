@@ -1,0 +1,6 @@
+# https://stylelint.io/user-guide/ignore-code
+
+dist/**/*.css
+build/**/*.css
+node_modules/**/*.css
+node_modules/**/*.less

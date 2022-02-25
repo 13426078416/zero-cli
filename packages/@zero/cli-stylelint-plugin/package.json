@@ -1,0 +1,47 @@
+{
+  "name": "@zero-cli/cli-stylelint-plugin",
+  "version": "2.0.3",
+  "description": "cli-stylelint-plugin",
+  "keywords": [
+    "stylelint",
+    "plugin"
+  ],
+  "author": "xiaocai <894516496@qq.com>",
+  "homepage": "https://github.com/13426078416/zero-cli/blob/master/packages/%40zero/cli-stylelint-plugin/README.md",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "directories": {
+    "src": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/13426078416/zero-cli.git"
+  },
+  "scripts": {
+    "build": "rimraf dist && tsc --pretty && cp -ri src/template dist/template",
+    "prepublishOnly": "yarn run build",
+    "check:type": "tsc --noEmit"
+  },
+  "bugs": {
+    "url": "https://github.com/13426078416/zero-cli/issues"
+  },
+  "dependencies": {
+    "@zero-cli/cli-utils-shared": "2.0.3",
+    "stylelint": "13.5.0",
+    "stylelint-webpack-plugin": "2.0.0"
+  },
+  "devDependencies": {
+    "@zero-cli/cli-types-shared": "2.0.3",
+    "@types/stylelint-webpack-plugin": "2.0.0"
+  },
+  "engines": {
+    "node": ">=10"
+  }
+}

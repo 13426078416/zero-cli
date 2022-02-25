@@ -1,0 +1,12 @@
+{
+  "root": true,
+  "parser": <%- eslintParser %>,
+  "parserOptions": <%- parserOptions %>,
+  "extends": <%- eslintExtends %>,
+  "env": <%- eslintEnv %>,
+  "globals": {
+    "process": true
+  },
+  "settings": <%- settings %>,
+  "rules": <%- eslintRules %>
+}

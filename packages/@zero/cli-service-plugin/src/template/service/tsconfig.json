@@ -1,0 +1,50 @@
+{
+  // More tsconfig info see https://www.typescriptlang.org/docs/handbook/tsconfig-json.html
+  "include": ["src/**/*", "src/.zero/**/*"],
+  "files": ["zero.config.ts"],
+  "exclude": ["public", "node_modules", "dist", "build"],
+
+  "compilerOptions": {
+    /* Project Options */
+    "declaration": false,
+    "jsx": "react",
+    "target": "ESNext",
+    "module": "ESNext",
+    "removeComments": true,
+    "rootDir": "./",
+    "sourceMap": true,
+
+    /* Strict Checks */
+    "alwaysStrict": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strict": true,
+    "strictBindCallApply": true,
+    "strictFunctionTypes": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
+
+    /* Module Resolution */
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "paths": {
+      "@/*": ["src/*"],
+      "zero": ["src/.zero/index.ts"],
+      "zero/*": ["src/.zero/*"],
+    },
+
+    /* Linter Checks */
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+
+    /* Advanced Options */
+    "resolveJsonModule": true,
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  }
+}

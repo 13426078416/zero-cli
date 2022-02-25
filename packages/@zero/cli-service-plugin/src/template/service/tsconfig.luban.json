@@ -1,0 +1,7 @@
+{
+  "files": ["zero.config.ts"],
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "ES5"
+  }
+}

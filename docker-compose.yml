@@ -1,0 +1,22 @@
+version: "3.7"
+
+services:
+  zero-doc-v2:
+    build: .
+    container_name: zero-doc-v2
+    expose:
+      - "80"
+    networks:
+      - proxy
+    environment:
+      - "PORT=80"
+      - "NODE_ENV=production"
+    command: npm run serve
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.doc-v2.entrypoints=websecure"
+      - "traefik.http.routers.doc-v2.rule=Host(`zero.fun`) || Host(`www.zero.fun`)"
+
+networks:
+  proxy:
+    external: true

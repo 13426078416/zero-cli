@@ -1,0 +1,47 @@
+{
+  "packages": [
+    "packages/@zero/*"
+  ],
+  "npmClient": "yarn",
+  "registry": "https://registry.npmjs.org/",
+  "version": "2.0.3",
+  "useWorkspaces": true,
+  "command": {
+    "publish": {
+      "allowBranch": "master",
+      "ignoreChanges": [
+        "*.md",
+        "scripts/**"
+      ],
+      "verifyAccess": true,
+      "verifyRegistry": true,
+      "conventionalCommits": true,
+      "message": "chore(release): publish %s"
+    },
+    "version": {
+      "ignoreChanges": [
+        "*.md",
+        "scripts/**"
+      ],
+      "conventionalCommits": true,
+      "message": "chore(release): version %s"
+    }
+  },
+  "changelog": {
+    "labels": {
+      "pr(enhancement)": ":rocket: Enhancement",
+      "pr(bug)": ":bug: Bug Fix",
+      "pr(documentation)": ":book: Documentation",
+      "pr(dependency)": ":deciduous_tree: Dependency",
+      "pr(chore)": ":turtle: Chore"
+    },
+    "repo": "@zero-cli",
+    "cacheDir": ".changelog"
+  },
+  "ignoreChanges": [
+    "CHANGELOG.md",
+    "**/__tests__/**",
+    "**/__mocks__/**",
+    "scripts/**"
+  ]
+}

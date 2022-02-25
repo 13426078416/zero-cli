@@ -1,0 +1,84 @@
+{
+  "name": "zero",
+  "private": true,
+  "workspaces": [
+    "packages/@zero/*"
+  ],
+  "scripts": {
+    "eslint:packages": "eslint -c packages/.eslintrc packages/**/*.ts",
+    "eslint:packages:strict": "eslint --report-unused-disable-directives --no-inline-config -c packages/.eslintrc packages/**/*.ts",
+    "eslint:scripts": "eslint -c scripts/.eslintrc scripts/*.js",
+    "format:packages": "prettier --write 'packages/**/*.ts'",
+    "format:check:packages": "prettier --check 'packages/**/*.ts'",
+    "format:scripts": "prettier --write 'scripts/*.js'",
+    "check:type:changed": "node scripts/build.js --check --onlyChanged",
+    "check:type": "node scripts/build.js --check",
+    "build:changed": "node scripts/build.js --onlyChanged",
+    "build": "node scripts/build.js",
+    "publish:next": "node scripts/publish.js --tag=next",
+    "publish:latest": "node scripts/publish.js --tag=latest",
+    "version:major": "lerna version --conventional-commits --force-publish='*' major --allow-branch master",
+    "version:minor": "lerna version --conventional-commits --force-publish='*' minor --allow-branch master",
+    "version:patch": "lerna version --conventional-commits --force-publish='*' patch --allow-branch master",
+    "version:prerelease": "lerna version --conventional-commits --force-publish='*' prerelease --preid next --allow-branch feat/*",
+    "test:changed": "node scripts/test.js --onlyChanged",
+    "test": "node scripts/test.js",
+    "coverage": "node scripts/test.js --coverage --color -i .*@zero/.*/.*\\.test\\.ts$",
+    "commit": "lint-staged && git-cz",
+    "bootstrap": "lerna bootstrap",
+    "clean": "lerna clean",
+    "clear": "rimraf packages/**/dist/"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.13.0",
+    "@commitlint/cli": "8.3.5",
+    "@commitlint/config-conventional": "8.3.4",
+    "@types/chalk": "2.2.0",
+    "@types/fs-extra": "8.0.1",
+    "@types/jest": "25.1.1",
+    "@types/semver": "7.1.0",
+    "@types/webpack": "4.41.27",
+    "@typescript-eslint/eslint-plugin": "2.18.0",
+    "@typescript-eslint/parser": "2.18.0",
+    "commitizen": "4.0.3",
+    "core-js": "2.x",
+    "cz-conventional-changelog": "3.1.0",
+    "eslint": "7.24.0",
+    "eslint-config-prettier": "8.2.0",
+    "husky": "4.2.1",
+    "jest": "25.1.0",
+    "lerna": "3.20.2",
+    "lint-staged": "10.0.7",
+    "prettier": "1.19.1",
+    "rimraf": "3.0.2",
+    "ts-jest": "25.1.0",
+    "typescript": "3.9.3"
+  },
+  "repository": "https://github.com/13426078416/zero-cli.git",
+  "author": "xiaocai <894516496@qq.com>",
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "lint-staged": {
+    "packages/**/*.test.ts": "yarn run test:changed",
+    "packages/**/*.ts": [
+      "yarn run format:packages",
+      "yarn run eslint:packages"
+    ],
+    "scripts/**/*.js": [
+      "yarn run format:scripts",
+      "yarn run eslint:scripts"
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=10"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "name": "@zero-cli/cli-fetch-plugin",
+  "version": "2.0.3",
+  "description": "cli-fetch-plugin",
+  "keywords": [
+    "fetch",
+    "plugin"
+  ],
+  "author": "xiaocai <894516496@qq.com>",
+  "homepage": "https://github.com/13426078416/zero-cli/blob/master/packages/%40zero/cli-fetch-plugin/README.md",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "directories": {
+    "src": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/13426078416/zero-cli.git"
+  },
+  "scripts": {
+    "build": "rimraf dist && tsc --pretty && cp -ri src/template dist/template",
+    "prepublishOnly": "yarn run build",
+    "check:type": "tsc --noEmit"
+  },
+  "bugs": {
+    "url": "https://github.com/13426078416/zero-cli/issues"
+  },
+  "devDependencies": {
+    "@zero-cli/cli-types-shared": "2.0.3"
+  },
+  "engines": {
+    "node": ">=10"
+  }
+}

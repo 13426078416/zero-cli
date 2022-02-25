@@ -1,0 +1,42 @@
+{
+  "name": "@zero-cli/cli-types-shared",
+  "version": "2.0.3",
+  "description": "some shared definition types for zero-cli",
+  "keywords": [
+    "types",
+    "zero"
+  ],
+  "author": "xiaocai <894516496@qq.com>",
+  "homepage": "https://github.com/13426078416/zero-cli/blob/master/packages/%40zero/cli-types-shared/README.md",
+  "license": "MIT",
+  "types": "dist/**/*.d.ts",
+  "directories": {
+    "src": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "shared",
+    "cli"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/13426078416/zero-cli.git"
+  },
+  "scripts": {
+    "build": "tsc --pretty",
+    "prepublishOnly": "yarn run build",
+    "check:type": "tsc --noEmit --project tsconfig.checktype.json"
+  },
+  "bugs": {
+    "url": "https://github.com/13426078416/zero-cli/issues"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "devDependencies": {
+    "execa": "4.0.0"
+  }
+}
