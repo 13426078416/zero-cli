@@ -1,6 +1,5 @@
 {
   "name": "zero",
-  "private": true,
   "workspaces": [
     "packages/@zero/*"
   ],
