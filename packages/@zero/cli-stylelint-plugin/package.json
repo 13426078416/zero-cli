@@ -1,6 +1,6 @@
 {
   "name": "@zero-cli/cli-stylelint-plugin",
-  "version": "2.1.1",
+  "version": "2.2.0",
   "description": "cli-stylelint-plugin",
   "keywords": [
     "stylelint",
@@ -33,13 +33,13 @@
     "url": "https://github.com/13426078416/zero-cli/issues"
   },
   "dependencies": {
-    "@zero-cli/cli-utils-shared": "^2.1.0",
+    "@zero-cli/cli-utils-shared": "^2.2.0",
     "stylelint": "13.5.0",
     "stylelint-webpack-plugin": "2.0.0"
   },
   "devDependencies": {
     "@types/stylelint-webpack-plugin": "2.0.0",
-    "@zero-cli/cli-types-shared": "^2.1.0"
+    "@zero-cli/cli-types-shared": "^2.2.0"
   },
   "engines": {
     "node": ">=10"
