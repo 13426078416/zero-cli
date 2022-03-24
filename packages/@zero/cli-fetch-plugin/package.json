@@ -1,6 +1,6 @@
 {
   "name": "@zero-cli/cli-fetch-plugin",
-  "version": "2.2.0",
+  "version": "3.0.0",
   "description": "cli-fetch-plugin",
   "keywords": [
     "fetch",
@@ -33,10 +33,10 @@
     "url": "https://github.com/13426078416/zero-cli/issues"
   },
   "devDependencies": {
-    "@zero-cli/cli-types-shared": "^2.2.0"
+    "@zero-cli/cli-types-shared": "^3.0.0"
   },
   "engines": {
     "node": ">=10"
   },
-  "gitHead": "042d54edc16b3ac6cd944d79933c1e82edb4154d"
+  "gitHead": "1707d8201f493ae9d3d004f5bb272044ce7ee65c"
 }

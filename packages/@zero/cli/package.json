@@ -1,6 +1,6 @@
 {
   "name": "@zero-cli/cli",
-  "version": "2.2.0",
+  "version": "3.0.0",
   "description": "a scaffold to create a react app",
   "bin": {
     "zero": "bin/index.js"
@@ -41,7 +41,7 @@
     "url": "https://github.com/13426078416/zero-cli/issues"
   },
   "dependencies": {
-    "@zero-cli/cli-utils-shared": "^2.2.0",
+    "@zero-cli/cli-utils-shared": "^3.0.0",
     "chalk": "3.0.0",
     "commander": "6.2.0",
     "deepmerge": "4.2.2",
@@ -73,10 +73,10 @@
     "@types/resolve": "1.14.0",
     "@types/update-notifier": "4.1.0",
     "@types/validate-npm-package-name": "3.0.0",
-    "@zero-cli/cli-types-shared": "^2.2.0"
+    "@zero-cli/cli-types-shared": "^3.0.0"
   },
   "engines": {
     "node": ">=10"
   },
-  "gitHead": "042d54edc16b3ac6cd944d79933c1e82edb4154d"
+  "gitHead": "1707d8201f493ae9d3d004f5bb272044ce7ee65c"
 }
