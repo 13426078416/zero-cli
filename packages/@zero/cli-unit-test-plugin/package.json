@@ -1,6 +1,6 @@
 {
   "name": "@zero-cli/zero-cli-unit-test-plugin",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "cli-plugin-unit-test",
   "keywords": [
     "unit-test",

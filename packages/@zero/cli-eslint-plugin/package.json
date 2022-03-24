@@ -1,6 +1,6 @@
 {
   "name": "@zero-cli/cli-eslint-plugin",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "cli-eslint-plugin",
   "author": "xiaocai <894516496@qq.com>",
   "homepage": "https://github.com/13426078416/zero-cli/blob/master/packages/%40zero/cli-eslint-plugin/README.md",

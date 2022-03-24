@@ -1,6 +1,6 @@
 {
   "name": "@zero-cli/cli-service-plugin",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "A development runtime environment dependency",
   "keywords": [
     "webpack",

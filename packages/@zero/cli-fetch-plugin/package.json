@@ -1,6 +1,6 @@
 {
   "name": "@zero-cli/cli-fetch-plugin",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "cli-fetch-plugin",
   "keywords": [
     "fetch",
